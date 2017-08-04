@@ -1,0 +1,35 @@
+#app {
+    background-color: lightgrey;
+    border: 1px solid black;
+    padding: 10px;
+    max-width: 220px;
+}
+
+.boom{
+    color: red;
+    font-size: 40px;
+    display: none;
+}
+
+.slot {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    background-color: #333333;
+    border: 1px solid #928f96;
+    cursor: pointer;
+    color: #333333;
+    text-align: center;
+}
+
+.slot.opened {
+    background-color: aliceblue;
+}
+
+.mined {
+    background-color: red;
+}
